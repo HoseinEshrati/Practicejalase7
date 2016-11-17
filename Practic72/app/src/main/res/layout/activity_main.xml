@@ -55,7 +55,9 @@
             android:background="@drawable/form"
             android:hint="  Enter E-mail  "
             android:textColor="@android:color/black"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"
+            />
 
         <EditText
             android:id="@+id/editage"
@@ -66,7 +68,7 @@
             android:hint="  Enter Age  "
             android:textColor="@android:color/black"
             android:textSize="20sp"
-
+android:inputType="number"
             />
 
         <Button
